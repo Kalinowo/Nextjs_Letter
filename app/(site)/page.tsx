@@ -20,9 +20,9 @@ export default function Home() {
   };
 
   return (
-    <div className="relative h-screen flex flex-col justify-center items-center gap-5">
+    <div className="relative h-screen flex flex-col justify-center items-center gap-5 bg-gray-300">
       {readLetter && <MainLetterContent />}
-      <div className="group flex flex-col [perspective:1000px]">
+      <div className="group flex flex-col [perspective:1000px] drop-shadow-2xl">
         <div
           className={
             flipSide
