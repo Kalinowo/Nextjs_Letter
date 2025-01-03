@@ -6,6 +6,7 @@ import { ShimmerButton } from "../components/ui/ShimmerButton";
 import { BsBalloonHeartFill } from "react-icons/bs";
 import { TbArrowBigDownFilled } from "react-icons/tb";
 import MainLetterContent from "../components/MainLetterContent";
+import Nacho from "@/public/Nachoneko1.png";
 
 export default function Home() {
   const [open, setOpen] = useState<boolean>(false);
@@ -82,7 +83,7 @@ export default function Home() {
               <BsBalloonHeartFill className="absolute bottom-1 left-0 text-8xl text-red-300" />
               <div className="absolute inset-0 [zIndex:-1] opacity-60">
                 <Image
-                  src="/NachoNeko1.png"
+                  src={Nacho}
                   alt="picture of the project"
                   objectFit="cover"
                   layout="fill"
