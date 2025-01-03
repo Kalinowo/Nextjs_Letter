@@ -82,8 +82,7 @@ export default function Home() {
               <BsBalloonHeartFill className="absolute bottom-1 left-0 text-8xl text-red-300" />
               <div className="absolute inset-0 [zIndex:-1] opacity-60">
                 <Image
-                  className=""
-                  src={"/nachoNeko1.png"}
+                  src="/nachoNeko1.png"
                   alt="picture of the project"
                   objectFit="cover"
                   layout="fill"
