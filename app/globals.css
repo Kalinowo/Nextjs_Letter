@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #aaaac4;
+  }
+}
+
+body {
+  background: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.custom-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dancing-script-ftw {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
